@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 8P8C_LED_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded
+K 8P8C RJ female connector led
+F ~
+$ENDCMP
+#
+$CMP PCA9555
+D 16-bit I2C-bus and SMBus I/O port with interrupt
+K  I2C TSSOP I/O
+F https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf?
+$ENDCMP
+#
+$CMP RJ45_LED_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, Shielded
+K 8P8C RJ female connector led
+F ~
+$ENDCMP
+#
+$CMP STKNX
+D LAN8720 Ethernet PHY with RMII interface
+K ETH PHY RMII
+F http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf
+$ENDCMP
+#
+$CMP TPS5430DDA_with_NC
+D 3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8
+K Step-Down DC-DC Switching Regulator
+F http://www.ti.com/lit/ds/symlink/tps5430.pdf
+$ENDCMP
+#
+$CMP TPS5431DDA
+D 3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-23V Input Voltage, PowerSO-8
+K Step-Down DC-DC Switching Regulator
+F http://www.ti.com/lit/ds/symlink/tps5430.pdf
+$ENDCMP
+#
+#End Doc Library
