@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+message FunctionBlock{
+    int32 type=1;
+    string name=2;
+    message Pos2D
+    {
+        int32 x=1;
+        int32 y=2;
+    }
+    Pos2D position=3;
+}
+
+message FunctionBlockDiagram {
+    string name = 1;
+  
+    
+    repeated FunctionBlock blocks =2;
+}
+
+
+

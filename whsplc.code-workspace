@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "plcwebide"
+		},
+		{
+			"path": "common"
+		},
+		{
+			"path": "wasm"
+		},
+		{
+			"path": "testwebserver"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "plcwebide"
+	}
+}
